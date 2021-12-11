@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FreshNET</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"/>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="shortcut icon" href="./img/logo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__body">
+                <a href="#" class="header__logo">
+                    <img src="./img/logo.jpg" alt="logo">
+                </a>
+                <div class="header__burger">
+                    <span></span>
+                </div>
+                <nav class="header__menu">
+                    <ul class="header__list">
+                        <li><a href="https://yaroslavkelemen.github.io/freshnet-home/" class="header__link">Home</a></li>
+                        <li><a href="https://yaroslavkelemen.github.io/freshnet-videos/" class="header__link">Videos</a></li>
+                        <li><a href="https://yaroslavkelemen.github.io/freshnet-music/" class="header__link">Music</a></li>
+                        <li><a href="https://yaroslavkelemen.github.io/freshnet-about/" class="header__link">About</a></li>
+                        <li class="header__link contact">Contact</li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div class="content">
+        <div class="container">
+            <div class="slides-container">
+                <div class="content__body">
+                    <div class="content__items">
+                        <div class="sidebar">
+                            <div>
+                                <div class="h1">Discover new</div>
+                                <div class="p">music</div>
+                            </div>
+                            <div>
+                                <div class="h1">Discover new</div>
+                                <div class="p">videos</div>
+                            </div>
+                            <div>
+                                <div class="h1">Discover new</div>
+                                <div class="p">with FreshNET</div>
+                            </div>
+                        </div>
+                        <div class="main-slide">
+                            <div class="slide">
+                                <video src="./videos/mixkit-traveling-through-a-tunnel-of-black-cubes-in-3d-31497-medium.mp4" autoplay loop></video>
+                            </div>
+                            <div class="slide">
+                                <video src="./videos/mixkit-scientists-watching-eclipse-trajectory-23259-medium.mp4" autoplay loop></video>
+                            </div>
+                            <div class="slide">
+                                <video src="./videos/mixkit-digital-equalizer-playing-a-song-9370-medium.mp4" autoplay loop></video>
+                            </div>
+                        </div>
+                        <div class="controls">
+                            <button class="down-button">
+                                <i class="fas fa-arrow-down"></i>
+                            </button>
+                            <button class="up-button">
+                                <i class="fas fa-arrow-up"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__columns">
+                    <div class="footer__column">
+                        <div class="footer__logo">
+                            <h3>F<span>N</span></h3>
+                        </div>
+                        <div class="footer__text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste, accusamus!
+                        </div>
+                        <div class="footer__social">
+                            <ul>
+                                <li><a href="https://instagram.com/yaroslav_460"><i class="fab fa-instagram"></i></a></li>
+                                <li><i class="fab fa-facebook"></i></li>
+                                <li><i class="fab fa-youtube"></i></li>
+                                <li><i class="fab fa-telegram"></i></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer__column">
+                        <div class="footer__navigation">
+                            <ul>
+                                <li><a href="https://yaroslavkelemen.github.io/freshnet-home/">Home</a></li>
+                                <li><a href="https://yaroslavkelemen.github.io/freshnet-videos/">Videos</a></li>
+                                <li><a href="https://yaroslavkelemen.github.io/freshnet-music/">Music</a></li>
+                                <li><a href="https://yaroslavkelemen.github.io/freshnet-about/">About</a></li>
+                                <li class="contact">Contact</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer__column">
+                        <div class="footer__news-letter">
+                            <p>Newsletter</p>
+                            <div class="footer__input">
+                                <input type="email" placeholder="Your Email">
+                                <div class="subscribe-btn">Subscribe</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__copyright">
+                    <p>Copyright © 2021 FreshNET</p>
+                    <p>All rights reserved</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal-overlay">
+        <div class="modal-window">
+            <div class="modal-header">
+                <div id="title" class="modal-title">
+                    Contact Us
+                </div>
+                <span class="modal-close">&times;</span>
+            </div>
+            <div class="modal-content">
+                <form action="#" class="form">
+                    <div class="form-preference">
+                        <label for="email">Enter your email:</label>
+                        <input type="email" id="email" placeholder="Email">
+                    </div>
+                    <div class="form-preference or">
+                        <p>–———OR———–</p>
+                    </div>
+                    <div class="form-preference">
+                        <label for="phone">Enter your phone number:</label>
+                        <input type="tel" id="phone" placeholder="Phone">
+                    </div>
+                    <div class="form-preference submit">
+                        <input type="submit" value="Contact!">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
